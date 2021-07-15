@@ -24,10 +24,11 @@ main {
 .ef-upgrade {
     background-color: rgba(0, 0, 0, 0.521);
     height: 40px;
-    width: 10%;
+    width: 12%;
     border-radius: 20px;
     border: 1px solid white;
     color: white;
+    text-transform:uppercase;
 }
 
 
