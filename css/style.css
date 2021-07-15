@@ -4,13 +4,45 @@
 	padding: 0;
 }
 
-.logo, .logo-spotify, .logo-tipo {
+.logo, .logo-spotify  {
     width: auto;
-    height: 40px;
-    z-index: 4;
+    height: 45px;
     display: flex;
     align-items: center;
+    margin-left: 12px;
+    margin-top:  15px;
 }
+
+.square-piu {
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+    
+}
+
+.home, .playlist {
+    margin-left: 25px;
+    padding-top: 30px;
+    line-height: 35px;
+    color: grey;
+    
+}
+
+.crea-playlist {
+    display: inline-block;
+   
+}
+
+ul {
+     list-style-type: none;
+}
+
+
 
 /* main section */
 main {
@@ -34,11 +66,10 @@ aside {
 .barra-up  {
     width: 100%;
     height: 100px;
-    position: fixed;
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.521);
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
 }
@@ -53,6 +84,19 @@ aside {
     text-transform:uppercase;
 }
 
+.box-evi {
+    width: 100%;
+}
+
+.in-evidenza {
+    max-width: 50%;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin: auto;
+}
 
 
 /* footer */
