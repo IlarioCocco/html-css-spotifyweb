@@ -59,6 +59,7 @@ aside {
     padding-top: 30px;
     line-height: 35px;
     color: grey;
+    
 }
 
 .playlist {
@@ -78,6 +79,7 @@ ul {
 .jhon {
   display: flex;
   flex-direction: column;
+  /* overflow-y: auto; */
 }
 
 
@@ -100,7 +102,7 @@ main {
 .barra-up  {
     width: 100%;
     height: 100px;
-    z-index: 3;
+    z-index: 2;
     background-color: rgba(0, 0, 0, 0.521);
     display: flex;
     justify-content: flex-end;
@@ -145,6 +147,8 @@ main {
 
 /* footer */
 footer {
+    position: relative;
+    z-index: 10;
     height: 110px;
     background-color: rgb(26, 25, 25);
     color: white;
