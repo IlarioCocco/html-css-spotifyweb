@@ -60,11 +60,15 @@ aside {
     padding-top: 30px;
     line-height: 35px;
     color: grey;
-    
+}
+
+.home {
+    overflow: hidden;
 }
 
 .playlist {
     overflow-y: auto;
+    height: 50vh;
 }
 
 
@@ -81,7 +85,6 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  /* overflow-y: auto; */
 }
 
 /* bar sinistra aside */
@@ -91,10 +94,13 @@ ul {
 
 
 /* main section */
+
+
 .first {
+    height: 90%;
     display: flex;
     flex-direction: column;
-}
+} 
 
 .last {
     display: flex;
