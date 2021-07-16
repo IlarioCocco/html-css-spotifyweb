@@ -20,6 +20,7 @@ color: white;
 
 aside {
     width: 250px;
+    height: calc(100vh - 110px);
     background-color: black;
     color: white;
     display: flex;
@@ -79,11 +80,9 @@ ul {
 .jhon {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   /* overflow-y: auto; */
 }
-
-
-
 
 /* bar sinistra aside */
 
@@ -92,6 +91,23 @@ ul {
 
 
 /* main section */
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
 main {
     height: calc(100vh - 110px);
     background-color: rgba(20,25,34,255);
