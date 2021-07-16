@@ -4,6 +4,30 @@
 	padding: 0;
 }
 
+a {
+color: rgb(138, 138, 138);
+text-decoration: none;
+}
+
+
+/* bar sinistra aside */
+
+
+aside {
+    width: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-box {
+    width: calc(100% - 250px);
+    background-color: rgba(20,25,34,255);
+    overflow-y: auto;
+}  
+
+
 .logo, .logo-spotify  {
     width: auto;
     height: 45px;
@@ -47,6 +71,13 @@ ul {
 }
 
 
+.jhon {
+  display: flex;
+  flex-direction: column;
+}
+
+/* bar sinistra aside */
+
 
 
 
@@ -58,20 +89,6 @@ main {
     display: flex;
 }
 
-aside {
-    width: 250px;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.container-box {
-    width: calc(100% - 250px);
-    background-color: rgba(20,25,34,255);
-    overflow-y: auto;
-}
  
 .barra-up  {
     width: 100%;
@@ -96,6 +113,11 @@ aside {
 
 
 
+
+
+
+
+/* nav centrale nel main */
 .in-evidenza ul {
     color: grey;
     display: flex;
@@ -107,17 +129,11 @@ aside {
     margin: 10px;
     color: grey;
 }
+/* nav centrale nel main */
 
 
 
-hr {
-    text-align: center;
-    width: 80%;
-}
 
-.jhon {
-    padding-top: 240px;
-}
 
 
 /* footer */
