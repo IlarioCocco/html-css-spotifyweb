@@ -16,8 +16,6 @@ color: white;
 
 
 /* bar sinistra aside */
-
-
 aside {
     width: 250px;
     height: calc(100vh - 110px);
@@ -27,11 +25,6 @@ aside {
     flex-direction: column;
 }
 
-.container-box {
-    width: calc(100% - 250px);
-    background-color: rgba(20,25,34,255);
-    overflow-y: auto;
-}  
 
 
 .logo, .logo-spotify  {
@@ -66,6 +59,7 @@ aside {
     overflow: hidden;
 }
 
+
 .playlist {
     overflow-y: auto;
     height: 50vh;
@@ -87,15 +81,6 @@ ul {
   justify-content: flex-end;
 }
 
-/* bar sinistra aside */
-
-
-
-
-
-/* main section */
-
-
 .first {
     height: 90%;
     display: flex;
@@ -107,13 +92,11 @@ ul {
     flex-direction: column;
     justify-content: flex-end;
 }
+/* bar sinistra aside */
 
 
 
-
-
-
-
+/* main section */
 main {
     height: calc(100vh - 110px);
     background-color: rgba(20,25,34,255);
@@ -143,8 +126,40 @@ main {
 }
 
 
+.container-box {
+    width: calc(100% - 250px);
+    background-color: rgba(20,25,34,255);
+    overflow-y: auto;
+}  
 
 
+/* album sezione  */
+.first-albums {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.second-albums {
+    width: calc(100% / 6);
+} 
+
+.album img {
+    width: 100%;
+}
+
+.recently {
+    color: white;
+}
+
+
+.genere-album,
+.titolo-album {
+    text-align: center;
+}
+/* album sezione  */
+
+/* main section */
 
 
 
@@ -161,9 +176,6 @@ main {
     color: grey;
 }
 /* nav centrale nel main */
-
-
-
 
 
 
@@ -184,3 +196,4 @@ footer {
     width: auto;
     height: 40px;
 }
+/* footer */
