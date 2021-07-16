@@ -4,10 +4,15 @@
 	padding: 0;
 }
 
-a {
-color: rgb(138, 138, 138);
-text-decoration: none;
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+a {
+text-decoration: none;
+color: white;
+}
+
 
 
 /* bar sinistra aside */
@@ -49,7 +54,7 @@ aside {
     
 }
 
-.home, .playlist {
+.home, .playlist, .jhon {
     margin-left: 25px;
     padding-top: 30px;
     line-height: 35px;
@@ -57,7 +62,7 @@ aside {
 }
 
 .playlist {
-    overflow-y: ;
+    overflow-y: auto;
 }
 
 
@@ -70,11 +75,13 @@ ul {
      list-style-type: none;
 }
 
-
 .jhon {
   display: flex;
   flex-direction: column;
 }
+
+
+
 
 /* bar sinistra aside */
 
