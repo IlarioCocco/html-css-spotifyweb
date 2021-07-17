@@ -285,8 +285,67 @@ footer {
 }
 .sinister {
     width: auto;
-    height: 40px;
+    height: 50px;
+    display: inline-block
 }
+
+/* footer left */
+.footer-left {
+    display: inline-flex;
+    align-items: center;
+}
+/* footer left */
+
+
+
+/* footer center */
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 5px;
+    position: relative;
+}
+
+.played {
+    background-color:rgb(26, 25, 25);
+    color: white;
+    border: none;
+    width: 90px;
+    height: 90px;
+    font-size: 35px;
+}
+
+.lineplayed {
+    width: 500px;
+    height: 2px;
+    background-color: rgb(255, 0, 0);
+    align-items: flex-end;
+    position: absolute;
+    bottom: 30px;
+}
+
+
+
+
+
+
+
+/* footer center */
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 
