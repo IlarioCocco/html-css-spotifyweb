@@ -5,17 +5,26 @@
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
+color: grey;
 text-decoration: none;
-color: white;
 }
 
 
 
 /* bar sinistra aside */
+.playlist-size {
+    font-size: 14px;
+}
+
+.playlist-size-jhon {
+    font-size: 22px;
+    padding-top: 5px;
+}
+
 aside {
     width: 250px;
     height: calc(100vh - 110px);
@@ -25,8 +34,6 @@ aside {
     flex-direction: column;
 }
 
-
-
 .logo, .logo-spotify  {
     width: auto;
     height: 45px;
@@ -34,7 +41,12 @@ aside {
     align-items: center;
     margin-left: 12px;
     margin-top:  15px;
-  
+}
+
+.casetta {
+    width:25px;
+    position: relative;
+    top: 6px;
 }
 
 .square-piu {
@@ -46,7 +58,6 @@ aside {
     padding: 5px;
     border: none;
     font-size: 20px;
-    
 }
 
 .home, .playlist, .jhon {
@@ -58,18 +69,19 @@ aside {
 
 .home {
     overflow: hidden;
+    color: white;
 }
 
 
 .playlist {
     overflow-y: auto;
     height: 50vh;
+    color: white;
 }
 
 
 .crea-playlist {
     display: inline-block;
-   
 }
 
 ul {
@@ -80,6 +92,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  color: white;
 }
 
 .first {
@@ -88,7 +101,6 @@ ul {
     flex-direction: column;
     position: relative;
     z-index: 7;
-    
 } 
 
 .last {
@@ -96,6 +108,35 @@ ul {
     flex-direction: column;
     justify-content: flex-end;
 }
+
+.hr-jhon {
+    width: 200px;
+    height: 1px;
+    background-color: grey;
+}
+
+
+.mask-jhon img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: grey;
+    position: relative;
+} 
+
+
+.mask img:hover {
+    border-radius: none;
+}
+
+.casetta-small {
+    width: 16px;
+    height: auto;
+    padding-bottom: 3px;
+}
+
+
 /* bar sinistra aside */
 
 
@@ -147,10 +188,12 @@ main {
     display: flex;
     flex-wrap: wrap;
     color: white;
+    padding-top: 20px;
 }
 
 .second-albums {
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 25px);
+    margin: 12px;
 } 
 
 .album img {
@@ -159,13 +202,34 @@ main {
 
 .recently {
     color: white;
+    margin-left: 12px;
+    padding-top: 40px;
 }
-
+.piu-ascolti {
+    color: grey;
+    font-size: 13px;
+    padding-top: 12px;
+}
 
 .genere-album,
 .titolo-album {
     text-align: center;
+    padding-top: 10px;
 }
+
+.circle img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+
+.circe img:hover {
+    border-radius: none;
+}
+
+
+
 /* album sezione  */
 
 /* main section */
@@ -177,7 +241,7 @@ main {
     color: grey;
     display: flex;
     justify-content: center;
-    padding-top: 120px;
+    padding-top: 105px;
     text-transform:uppercase;
 }
 .in-evidenza ul li {
@@ -209,13 +273,4 @@ footer {
 
 
 
-.circle img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-} 
 
-.circe img:hover {
-    border-radius: none;
-}
