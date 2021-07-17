@@ -293,6 +293,7 @@ footer {
 .footer-left {
     display: inline-flex;
     align-items: center;
+    color: grey;
 }
 /* footer left */
 
@@ -308,13 +309,55 @@ footer {
     position: relative;
 }
 
-.played {
+.played-uno {
     background-color:rgb(26, 25, 25);
-    color: white;
+    color: lightgrey;
     border: none;
     width: 60px;
     height: auto;
-    font-size: 35px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+.played-due {
+    background-color:rgb(26, 25, 25);
+    color: lightgrey;
+    border: none;
+    width: 60px;
+    height: auto;
+    font-size: 20px;
+    padding-bottom: 10px;
+    transform: scaleX(-1);
+}
+
+.played-tre {
+    background-color:rgb(26, 25, 25);
+    color: lightgrey;
+    border: none;
+    width: 60px;
+    height: auto;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.played-quattro {
+    background-color:rgb(26, 25, 25);
+    color: lightgrey;
+    border: none;
+    width: 60px;
+    height: auto;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.played-cinque {
+    background-color:rgb(26, 25, 25);
+    color: lightgrey;
+    border: none;
+    width: 60px;
+    height: auto;
+    font-size: 20px;
     padding-bottom: 10px;
 }
 
@@ -323,13 +366,19 @@ footer {
     height: 4px;
     background-color: rgb(85, 85, 85);
     position: absolute;
+    border-radius: 3px;
 }
 
 .zero-venticinque {
     position: absolute;
     right: 450px;
-    
+    font-size: 12px;
+}
 
+.quattro {
+    position: absolute;
+    left: 450px;
+    font-size: 12px;
 }
 
 
