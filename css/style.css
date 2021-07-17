@@ -312,18 +312,24 @@ footer {
     background-color:rgb(26, 25, 25);
     color: white;
     border: none;
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: auto;
     font-size: 35px;
+    padding-bottom: 10px;
 }
 
 .lineplayed {
-    width: 500px;
-    height: 2px;
-    background-color: rgb(255, 0, 0);
-    align-items: flex-end;
+    width: 450px;
+    height: 4px;
+    background-color: rgb(85, 85, 85);
     position: absolute;
-    bottom: 30px;
+}
+
+.zero-venticinque {
+    position: absolute;
+    right: 450px;
+    
+
 }
 
 
