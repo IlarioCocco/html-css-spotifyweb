@@ -171,13 +171,12 @@ main {
     width: 100%;
     height: 100px;
     z-index: 5;
+    position: relative;
     background-color: rgba(0, 169, 76, 0.118);
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
-    overflow-y: auto;
-    position: relative;
     position: fixed;
     right: 0px;
 }
@@ -199,7 +198,6 @@ main {
     background-color: rgba(20,25,34,255);
     overflow-y: auto;
 }  
-
 
 /* album sezione  */
 .first-albums {
@@ -245,13 +243,8 @@ main {
 .circe img:hover {
     border-radius: none;
 }
-
-
-
 /* album sezione  */
-
 /* main section */
-
 
 
 /* nav centrale nel main */
@@ -297,9 +290,12 @@ footer {
     color: grey;
 }
 
+.title-sinister :first-child {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
 .title-sinister {
     padding-left :10px;
-    color: white;
 }
 
 .cuore-cartella {
@@ -329,7 +325,7 @@ footer {
     border: none;
     width: 60px;
     height: auto;
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 10px;
 }
 
