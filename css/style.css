@@ -92,7 +92,10 @@ aside {
     padding-top: 40px;
 }
 
-
+.casetta:hover {
+  background-color: rgba(1, 232, 66, 0.563);
+}
+   
 .playlist {
     height: 45vh;
     color: white;
@@ -484,3 +487,57 @@ footer {
 /* footer */
 
 
+.bar-up {
+    position: relative;
+    opacity: 0;
+    color: lawngreen;
+    font-size: 40px;
+    right: 5px;
+    top: 10px;
+    right: 67px;
+}
+
+.bar-up:hover,
+.bar-up-due:hover,
+.bar-up-tre:hover,
+.bar-up-quattro:hover,
+.bar-up-cinque:hover {
+    opacity: 1;
+    color: lawngreen;
+}
+
+.bar-up-due {
+    position: relative;
+    opacity: 0;
+    color: lawngreen;
+    font-size: 40px;
+    top: 10px;
+    right: 57px;
+}
+
+.bar-up-tre {
+    position: relative;
+    opacity: 0;
+    color: lawngreen;
+    font-size: 40px;
+    top: 10px;
+    right: 80px;
+}
+
+.bar-up-quattro {
+    position: relative;
+    opacity: 0;
+    color: lawngreen;
+    font-size: 40px;
+    top: 10px;
+    right: 75px;
+}
+
+.bar-up-cinque {
+    position: relative;
+    opacity: 0;
+    color: lawngreen;
+    font-size: 40px;
+    top: 10px;
+    right: 50px;
+}
