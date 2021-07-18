@@ -539,10 +539,16 @@ footer {
     padding: 7px;
 }
 
-.list:hover {
+.list:hover,
+.lineplayed-due:hover {
     font-size: 15px;
     color: lawngreen;
 }
+
+.lineplayed-due:hover,
+.lineplayed:hover {
+    height: 5px;
+    background-color: lawngreen;
 /* footer-right */
 /* footer */
 
