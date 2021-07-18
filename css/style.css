@@ -8,10 +8,6 @@ a:hover {
    color:rgb(255, 255, 255);
 }
 
-.square-piu:hover {
-    background-color: white;
-}
-
 body {
    font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -20,8 +16,6 @@ a {
    color: grey;
    text-decoration: none;
 }
-
-
 
 /* bar sinistra aside */
 .plus {
@@ -77,6 +71,10 @@ aside {
     border: none;
     font-size: 20px;
     padding-top: 5px;
+}
+
+.square-piu:hover {
+    background-color: white;
 }
 
 .home, .playlist, .jhon {
