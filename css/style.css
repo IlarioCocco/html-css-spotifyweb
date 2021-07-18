@@ -146,7 +146,6 @@ ul {
     background-color: grey;
 }
 
-
 .mask-jhon img {
     width: 25px;
     height: 25px;
@@ -155,7 +154,6 @@ ul {
     background-color: grey;
     position: relative;
 } 
-
 
 .mask img:hover {
     border-radius: none;
@@ -176,7 +174,6 @@ main {
     background-color: rgba(20,25,34,255);
     display: flex;
 }
-
  
 .barra-up  {
     width: 100%;
@@ -202,6 +199,7 @@ main {
     text-transform:uppercase;
     margin-right: 20px;
 }
+
 .ef-upgrade:hover {
     width: 255px;
     height: 50px;
@@ -216,6 +214,62 @@ main {
     background-color: rgba(20,25,34,255);
     overflow-y: auto;
 }  
+
+
+.bar-up {
+    position: relative;
+    opacity: 0;
+    color: lawngreen;
+    font-size: 40px;
+    right: 5px;
+    top: 10px;
+    right: 67px;
+}
+
+.bar-up:hover,
+.bar-up-due:hover,
+.bar-up-tre:hover,
+.bar-up-quattro:hover,
+.bar-up-cinque:hover {
+    opacity: 1;
+    color: lawngreen;
+}
+
+.bar-up-due {
+    position: relative;
+    opacity: 0;
+    color: lawngreen;
+    font-size: 40px;
+    top: 10px;
+    right: 57px;
+}
+
+.bar-up-tre {
+    position: relative;
+    opacity: 0;
+    color: lawngreen;
+    font-size: 40px;
+    top: 10px;
+    right: 80px;
+}
+
+.bar-up-quattro {
+    position: relative;
+    opacity: 0;
+    color: lawngreen;
+    font-size: 40px;
+    top: 10px;
+    right: 75px;
+}
+
+.bar-up-cinque {
+    position: relative;
+    opacity: 0;
+    color: lawngreen;
+    font-size: 40px;
+    top: 10px;
+    right: 50px;
+}
 
 /* album sezione  */
 /* album effetto overlay */
@@ -486,58 +540,3 @@ footer {
 /* footer-right */
 /* footer */
 
-
-.bar-up {
-    position: relative;
-    opacity: 0;
-    color: lawngreen;
-    font-size: 40px;
-    right: 5px;
-    top: 10px;
-    right: 67px;
-}
-
-.bar-up:hover,
-.bar-up-due:hover,
-.bar-up-tre:hover,
-.bar-up-quattro:hover,
-.bar-up-cinque:hover {
-    opacity: 1;
-    color: lawngreen;
-}
-
-.bar-up-due {
-    position: relative;
-    opacity: 0;
-    color: lawngreen;
-    font-size: 40px;
-    top: 10px;
-    right: 57px;
-}
-
-.bar-up-tre {
-    position: relative;
-    opacity: 0;
-    color: lawngreen;
-    font-size: 40px;
-    top: 10px;
-    right: 80px;
-}
-
-.bar-up-quattro {
-    position: relative;
-    opacity: 0;
-    color: lawngreen;
-    font-size: 40px;
-    top: 10px;
-    right: 75px;
-}
-
-.bar-up-cinque {
-    position: relative;
-    opacity: 0;
-    color: lawngreen;
-    font-size: 40px;
-    top: 10px;
-    right: 50px;
-}
