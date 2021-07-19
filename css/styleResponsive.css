@@ -1,23 +1,46 @@
 /* desktop first */
 
-@media screen and (max-width: 400px) {
-    body {
-        color: hotpink; 
+/* sezione desktop */
+@media screen and (max-width: 1100px) {
+    * {
+        /* color: hotpink;  */
     }
+    .player-destro {
+        display: none;
+      }
+
 }
  
 
+/* sezione tablet */
 @media screen and (max-width: 700px) {
-    body {
-        color: rgb(255, 105, 105); 
+    .second-albums {
+        width: calc(100% / 4 - 25px);
+        margin: 12px;
+    } 
+    
+    .lineplayed {
+        width: 200px;
+    }  
+
+    .player-destro {
+        display: none;
     }
+
 }
 
 
-@media screen and (max-width: 1100px) {
-    body {
-        color: rgb(130, 255, 105); 
+/* sezione mobile */
+@media screen and (max-width: 400px) {
+    .second-albums {
+        width: calc(100% / 2 - 25px);
+        margin: 12px;
+    } 
+
+    .barra-up {
+         display: none;
     }
+
 }
 
 
