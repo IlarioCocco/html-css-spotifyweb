@@ -20,10 +20,6 @@
     .lineplayed {
         width: 150px;
     }  
-
-    .barra-up {
-         display: none;
-    }
 }
 
 
@@ -36,7 +32,8 @@
 
     .logo, 
     .logo-spotify {
-        display: none;
+        width: auto;
+        height: 25px;
     }
 
     .second-albums {
@@ -61,10 +58,6 @@
     .player {
         display: none;
     }
-
-    /* .home li a {
-        display: none;
-    } */
 
     .cuore-cartella {
         display: none;
