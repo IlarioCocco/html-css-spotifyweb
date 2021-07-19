@@ -428,96 +428,54 @@ footer {
     max-width: 100%;
 }
 
-.played-uno:hover, 
-.played-due:hover,
-.played-quattro:hover, 
-.played-cinque:hover {
+
+.played-uno:hover {
    color: lawngreen;
    font-size: 18px;
 }
-.played-tre:hover,
+
+.play-centrale:hover,
+.played-uno:hover,
 .zero-venticinque:hover,
 .quattro:hover {
    color: lawngreen;
 }
 
 .played-uno {
+    font-size: 15px;
     background-color:rgb(26, 25, 25);
     color: lightgrey;
     border: none;
     width: 60px;
     height: auto;
-    font-size: 15px;
     padding-bottom: 10px;
 }
 
 .play-centrale {
-    font-size: 35px;
-}
-
-/* 
-.played-due {
-    background-color:rgb(26, 25, 25);
-    color: lightgrey;
-    border: none;
-    width: 60px;
-    height: auto;
-    font-size: 15px;
-    padding-bottom: 10px;
-    transform: scaleX(-1);
-}
-
-.played-tre {
-    background-color:rgb(26, 25, 25);
-    color: lightgrey;
-    border: none;
-    width: 45px;
-    height: auto;
     font-size: 30px;
-    padding-bottom: 10px;
-}
-
-.played-quattro {
     background-color:rgb(26, 25, 25);
     color: lightgrey;
     border: none;
     width: 60px;
     height: auto;
-    font-size: 15px;
     padding-bottom: 10px;
 }
-
-.played-cinque {
-    background-color:rgb(26, 25, 25);
-    color: lightgrey;
-    border: none;
-    width: 60px;
-    height: auto;
-    font-size: 15px;
-    padding-bottom: 10px;
-} */
 
 .lineplayed {
-    width: 100%;
+    width: 600px;
     height: 4px;
     background-color: rgb(85, 85, 85);
-    /* position: absolute; */
     border-radius: 3px;
-    /* margin-bottom: 15px; */
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .zero-venticinque {
-    /* position: absolute; */
-    right: 410px;
     font-size: 12px;
-    padding-bottom: 16px;
 }
 
 .quattro {
-    /* position: absolute; */
-    left: 410px;
     font-size: 12px;
-    padding-bottom: 16px;
 }
 /* footer center */
 
