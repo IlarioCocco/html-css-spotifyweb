@@ -12,14 +12,13 @@
  
 
 /* sezione tablet */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 870px) {
     .second-albums {
         width: calc(100% / 4 - 25px);
-        margin: 12px;
     } 
     
     .lineplayed {
-        width: 200px;
+        width: 150px;
     }  
 
     .barra-up {
@@ -32,16 +31,22 @@
 @media screen and (max-width: 480px) {
     .second-albums {
         width: calc(100% / 2 - 25px);
-        margin: 12px;
+        flex-direction: column;
     } 
+
+    .first-albums {
+        display: flex;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    .lineplayed {
+        width: 50px;
+    }  
 
     .barra-up {
          display: none;
     }
-
-    .lineplayed {
-        display: none;
-    }  
 
     .player {
         display: none;
@@ -54,6 +59,10 @@
     .cuore-cartella {
         display: none;
     }
+
+    .lineplayed {
+        display: none;
+    }  
 }
 
 
