@@ -8,12 +8,11 @@
     .player-destro {
         display: none;
       }
-
 }
  
 
 /* sezione tablet */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
     .second-albums {
         width: calc(100% / 4 - 25px);
         margin: 12px;
@@ -23,10 +22,9 @@
         width: 200px;
     }  
 
-    .player-destro {
-        display: none;
+    .barra-up {
+         display: none;
     }
-
 }
 
 
@@ -49,15 +47,13 @@
         display: none;
     }
 
-    aside {
-    width: 150px;
-    height: calc(100vh - 110px);
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-}
+    .home li a {
+        display: none;
+    }
 
+    .cuore-cartella {
+        display: none;
+    }
 }
 
 
