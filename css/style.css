@@ -46,13 +46,20 @@ aside {
     flex-direction: column;
 }
 
-.logo, .logo-spotify  {
+.logo, 
+.logo-spotify {
     width: auto;
     height: 45px;
     display: flex;
     align-items: center;
     margin-left: 12px;
     margin-top:  15px;
+}
+
+.logo-small {
+    position: relative;
+    right: 160px;
+    display: none;
 }
 
 .casetta {

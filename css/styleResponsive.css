@@ -29,6 +29,15 @@
 
 /* sezione mobile */
 @media screen and (max-width: 480px) {
+    .logo-small {   
+        display: block;
+    }
+
+    .logo, 
+    .logo-spotify {
+        display: none;
+    }
+
     .second-albums {
         width: calc(100% / 2 - 25px);
         flex-direction: column;
@@ -52,9 +61,9 @@
         display: none;
     }
 
-    .home li a {
+    /* .home li a {
         display: none;
-    }
+    } */
 
     .cuore-cartella {
         display: none;
@@ -63,6 +72,10 @@
     .lineplayed {
         display: none;
     }  
+
+    .hr-jhon {
+        width: 0px;
+    }
 }
 
 
