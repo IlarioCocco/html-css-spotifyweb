@@ -163,8 +163,8 @@ ul {
     object-fit: cover;
     border-radius: 50%;
 }
-.casetta-small:hover{
-    background-color: greenyellow);
+.casetta-small:hover {
+    background-color: greenyellow ;
 }
 /* bar sinistra aside */
 
@@ -516,6 +516,8 @@ footer {
 .lineplayed:hover {
     height: 5px;
     background-color: lawngreen;
+}
+
 /* footer-right */
 /* footer */
 
