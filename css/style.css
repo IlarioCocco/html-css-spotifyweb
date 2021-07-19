@@ -178,7 +178,7 @@ main {
 }
  
 .barra-up  {
-    width: 100%;
+    width: calc(100% - 250px);
     height: 100px;
     z-index: 5;
     position: relative;
