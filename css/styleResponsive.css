@@ -13,7 +13,7 @@
  
 
 /* sezione tablet */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     .second-albums {
         width: calc(100% / 4 - 25px);
         margin: 12px;
@@ -31,7 +31,7 @@
 
 
 /* sezione mobile */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
     .second-albums {
         width: calc(100% / 2 - 25px);
         margin: 12px;
@@ -40,6 +40,23 @@
     .barra-up {
          display: none;
     }
+
+    .lineplayed {
+        display: none;
+    }  
+
+    .player {
+        display: none;
+    }
+
+    aside {
+    width: 150px;
+    height: calc(100vh - 110px);
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
 
 }
 
