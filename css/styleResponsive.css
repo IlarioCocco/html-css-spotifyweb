@@ -29,7 +29,8 @@
 
 /* sezione mobile */
 @media screen and (max-width: 480px) {
-    .logo-small {   
+    .logo-small {
+        position: relative;
         display: block;
     }
 

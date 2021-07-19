@@ -56,11 +56,22 @@ aside {
     margin-top:  15px;
 }
 
-.logo-small {
+
+/* da verificare */
+
+/* .logo-small {
     position: relative;
-    right: 160px;
+    right: 150px;
     display: none;
-}
+    width: auto;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+} */
+
+/* da verificare */
+
 
 .casetta {
     width: 25px;
