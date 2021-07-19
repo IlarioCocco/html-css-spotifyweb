@@ -1,0 +1,23 @@
+/* desktop first */
+
+@media screen and (max-width: 1100px) {
+      .second-albums {
+    width: calc(100% / 4 - 25px);
+    margin: 12px;
+}
+ 
+
+@media screen and (max-width: 700px) {
+      .second-albums {
+    width: calc(100% / 2 - 25px);
+    margin: 12px;;
+} 
+
+@media screen and (max-width: 400px) {
+    .home li a {
+        display: none;
+    }
+      
+} 
+
+
