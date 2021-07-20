@@ -1,6 +1,7 @@
 /* desktop first */
 
 /* sezione desktop */
+/* 0 - 1100 */
 @media screen and (max-width: 1100px) {
     * {
         /* color: hotpink;  */
@@ -8,11 +9,16 @@
     .player-destro {
         display: none;
       }
+
+       .lineplayed {
+        width: 400px;
+    }  
 }
  
 
 /* sezione tablet */
-@media screen and (max-width: 870px) {
+/* 0 - 870 */
+@media screen and (max-width: 700px) {
     .second-albums {
         width: calc(100% / 4 - 25px);
     } 
@@ -24,7 +30,8 @@
 
 
 /* sezione mobile */
-@media screen and (max-width: 480px) {
+/* 0 - 480 */
+@media screen and (max-width: 600px) {
     .logo-small {
         position: relative;
         display: block;
@@ -37,7 +44,7 @@
     }
 
     .second-albums {
-        width: calc(100% / 2 - 25px);
+        width: calc(100% / 3 - 25px);
         flex-direction: column;
     } 
 
@@ -70,6 +77,7 @@
     .hr-jhon {
         width: 0px;
     }
+
 }
 
 
