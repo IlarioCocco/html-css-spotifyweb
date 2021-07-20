@@ -54,7 +54,7 @@
 
     .first-albums {
         display: flex;
-        padding-top: 20px;
+        padding-top: 0px;
         flex-direction: column;
     }
 
